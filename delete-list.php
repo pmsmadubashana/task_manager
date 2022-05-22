@@ -14,7 +14,7 @@
             echo "Connection successful";
         }
 
-         $sql="DELETE FROM table_list WHERE list_id=$list_id";
+        $sql="DELETE FROM table_list WHERE list_id=$list_id";
 
         $result=mysqli_query($connection,$sql);
 
